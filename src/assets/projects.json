@@ -1,0 +1,38 @@
+[
+  {
+    "title": "MediBase",
+    "content": "lorem ipsum",
+    "img": "/src/assets/images/p1.jpg",
+    "tools": ["vue.js", "tailwind css"],
+    "category": ["other","fav"]
+  },
+  {
+    "title": "AltTranslate",
+    "content": "lorem ipsum",
+    "img": "/src/assets/images/p1.jpg",
+    "tools": ["vue.js", "tailwind css"],
+    "category": "web"
+  },
+  {
+    "title": "PixelCode",
+    "content": "For my computer engineering bachelor's thesis project, I developed an educational puzzle-based video game for Android mobile devices, designed to teach users the basics of programming, such as loops, if statements, and functions. The game was built using the free and open-source Godot game engine and written in its native language, GDScript.",
+    "img": "/src/assets/images/p2.jpg",
+    "tools": ["godot", "gdscript", "aseprite"],
+    "category": ["game","fav"]
+  },
+  {
+    "title": "Portfolio",
+    "content": "I made the website you are browsing right now! Using Vue.js and TailwindCSS.",
+    "img": "/src/assets/images/p1.jpg",
+    "tools": ["vue.js", "tailwind css"],
+    "category": "web"
+  },
+  {
+    "title": "Theme Generator",
+    "content": "I created a web-based theme generator that allows users to customize various aspects of a pre-made static layout, such as colors, styles, borders, gaps, padding, and sizes. Users can also enable or disable certain components like the header, sidebars, and footer, as well as insert a header image, among other options. Once the customizations are made, the app generates the corresponding HTML and CSS, ready to be copy-pasted into an .html file. I developed this using HTML, CSS, and JavaScript.",
+    "img": "/src/assets/images/themegen.png",
+    "tools": ["html", "javascript", "css"],
+    "category": ["web","fav"],
+    "link": "https://github.com/noirecode/theme-generator"
+  }
+]
