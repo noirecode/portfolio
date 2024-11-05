@@ -2,7 +2,6 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import CardComponent from './components/CardComponent.vue'
 import ProjectsComponent from './components/ProjectsComponent.vue'
-import CertifComponent from './components/CertifComponent.vue'
 </script>
 <template>
   <div class="flex flex-col container mx-auto lg:w-3/6 md:w-11/12">
@@ -12,7 +11,6 @@ import CertifComponent from './components/CertifComponent.vue'
     <main class="space-y-16 mt-20 mb-6">
       <CardComponent />
       <ProjectsComponent />
-      <CertifComponent />
     </main>
   </div>
 </template>

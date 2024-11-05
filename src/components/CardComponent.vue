@@ -13,12 +13,6 @@
         and expand my skills in areas like full-stack development and game design. Explore my work,
         and let's build something amazing together!
       </p>
-      <!-- <div
-        class="dark:before:bg-lime-500 before:absolute before:bg-red-500 before:block before:size-full before:inset-0 before:z-[-1] relative inline-block p-2 mt-6 cursor-default dark:text-black"
-      >
-        hobbies:
-      </div>
-      <span> videogames, running, swimming, crocheting, virtual photography, painting</span>-->
     </div> 
   </section>
 </template>

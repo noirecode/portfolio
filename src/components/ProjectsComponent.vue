@@ -42,7 +42,6 @@ const buttonStyle =
       <button :class="buttonStyle" @click="categoryFilter('fav')">favorite</button>
       <button :class="buttonStyle" @click="categoryFilter('web')">web</button>
       <button :class="buttonStyle" @click="categoryFilter('game')">game</button>
-      <button :class="buttonStyle" @click="categoryFilter('other')">other</button>
       <button :class="buttonStyle" @click="categoryFilter('all')">all</button>
     </div>
   </div>
@@ -69,7 +68,7 @@ const buttonStyle =
       <div class="w-2/4">
         <img
           :src="`${project.img}`"
-          :class="`object-cover size-80 w-full rounded-sm + ${transformStyle}`"
+          :class="`object-contain size-80 w-full rounded-sm + ${transformStyle}`"
         />
       </div>
     </section>
