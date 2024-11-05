@@ -1,7 +1,9 @@
 <script setup>
 import { ref, computed } from 'vue'
 import projects from '@/assets/projects.json'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const limit = ref(3)
 const projectCategory = ref('fav')
 
@@ -37,12 +39,12 @@ const buttonStyle =
 </script>
 <template>
   <div>
-    <h2 class="font-bold text-4xl mb-12">02. // projects</h2>
+    <h2 class="font-bold text-4xl mb-12">02. // {{t('projects-title')}}</h2>
     <div class="space-x-6">
-      <button :class="buttonStyle" @click="categoryFilter('fav')">favorite</button>
+      <button :class="buttonStyle" @click="categoryFilter('fav')">{{t('p-fave')}}</button>
       <button :class="buttonStyle" @click="categoryFilter('web')">web</button>
-      <button :class="buttonStyle" @click="categoryFilter('game')">game</button>
-      <button :class="buttonStyle" @click="categoryFilter('all')">all</button>
+      <button :class="buttonStyle" @click="categoryFilter('game')">{{t('p-game')}}</button>
+      <button :class="buttonStyle" @click="categoryFilter('all')">{{t('p-all')}}</button>
     </div>
   </div>
   <div v-auto-animate>
@@ -55,8 +57,8 @@ const buttonStyle =
         <h3 class="font-bold text-2xl mb-4 border-b-2 border-black dark:border-neutral-400">
           {{ project.title }}
         </h3>
-        <p class="">
-          {{ project.content }}
+        <p>
+          {{ t(project.id)}}
         </p>
         <div class="pt-6 space-x-6">
           <span v-for="tool in project.tools" :key="tool" :class="techStyle"> {{ tool }}</span>

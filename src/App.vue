@@ -2,6 +2,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import CardComponent from './components/CardComponent.vue'
 import ProjectsComponent from './components/ProjectsComponent.vue'
+
 </script>
 <template>
   <div class="flex flex-col container mx-auto lg:w-3/6 md:w-11/12">
